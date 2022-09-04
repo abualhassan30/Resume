@@ -1,5 +1,4 @@
-// document.querySelector("h1").style.color = "pink";
-import translations from "translations.js";
+import translations from "/translations.js";
 
 const languageSelector = document.querySelector("select");
 languageSelector.addEventListener("change", (event) => {
@@ -8,7 +7,7 @@ languageSelector.addEventListener("change", (event) => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-  const language = localStorage.getItem("lang") || "ar"; // اذا لم تكن اللغة متوفرة استخدم الانجليزية
+  const language = localStorage.getItem("lang") || "ar"; 
   setLanguage(language);
 });
 
