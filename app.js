@@ -1,5 +1,5 @@
 // document.querySelector("h1").style.color = "pink";
-import translations from "/translations.js";
+import translations from "translations.js";
 
 const languageSelector = document.querySelector("select");
 languageSelector.addEventListener("change", (event) => {
