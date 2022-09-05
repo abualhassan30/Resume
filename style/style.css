@@ -1,9 +1,9 @@
 :root {
-  --clr-primary: #1fe205;
+  --clr-primary: #bd9203;
   --clr-secondary: #ffffff;
   --clr-black: #000000;
   --clr-bg: #000000;
-  --box-shadow: 0px -1px 15px -3px #1fe205;
+  --box-shadow: 0px -1px 15px -3px #bd9203;
   --border3px: 3px;
   --border5px: 5px;
   --border-radius: 5px;
@@ -225,10 +225,6 @@ header {
   line-height: 2.5;
 }
 
-.management-tasks .list-m-tasks .fa-check-square {
-  color: var(--clr-primary);
-}
-
 /* MORE-INFORMATION STYLE */
 
 .wrapper {
@@ -310,7 +306,7 @@ header {
   top: 0.5rem;
   bottom: 0rem;
   margin-top: 0;
-  color: var(--clr-primary);
+  color: rgb(3, 184, 3);
   animation: bounce 1s infinite;
   -webkit-animation: bounce 1s infinite;
   -moz-animation: bounce 1s infinite;
