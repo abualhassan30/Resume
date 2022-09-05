@@ -210,7 +210,7 @@ header {
   padding: 1rem;
   background-color: var(--clr-black);
   color: var(--clr-primary);
-  border: 3px solid #1fe205;
+  border: 3px solid var(--clr-primary);
   border-radius: var(--border-radius);
   text-align: center;
 }
